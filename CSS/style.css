@@ -1,0 +1,68 @@
+h1 {
+    color: red;
+}
+
+h1:hover {
+    color: aqua;
+    font-size: 3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+a:link {
+    color:coral;
+}
+
+a:visited{
+    color:greenyellow;
+}
+
+a:active {
+    color:magenta;
+}
+
+/*input[type="text"] {
+    border: solid green;
+    border-radius: 5px ;
+    outline: solid red;
+    outline-offset: 5px;
+}*/
+
+input[type="text"]:focus {
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 5px aqua;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+
+input[type="checkbox"]:checked {
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 5px green;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: gold;
+
+}
+
+/*section p:first-child{
+    color: red;
+}
+
+section p:last-child {
+    color: green
+}*/
+
+section p:nth-child(3){
+    color:green
+} 
